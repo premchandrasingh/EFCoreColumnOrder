@@ -111,6 +111,6 @@ public abstract class ConfigurationBase<TEntity> : IEntityTypeConfiguration<TEnt
 ```
 
 ### Output
-![Generated C# migration script](images/migration1.png)
+![Generated C# migration script](/images/migration1.png)
 
-![Final DB](images/migration2.png)
+![Final DB](/images/migration2.png)
