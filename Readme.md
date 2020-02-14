@@ -10,6 +10,11 @@ Ref:-
 - Copy files from `EFCoreColumnOrder` projects and paste in your project. Don't worry about namespace, all classes included in their original namespaces
 - Simply use `HasColumnOrder(<number>)` in your model configuration
 
+### Output
+![Generated C# migration script](/Images/migration1.png)
+
+![Final DB](/Images/migration2.png)
+
 ## Sample
 
 ### Entities
@@ -110,7 +115,3 @@ public abstract class ConfigurationBase<TEntity> : IEntityTypeConfiguration<TEnt
     }
 ```
 
-### Output
-![Generated C# migration script](/images/migration1.png)
-
-![Final DB](/images/migration2.png)
